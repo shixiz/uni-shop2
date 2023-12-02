@@ -45,6 +45,13 @@
             {
               "enablePullDownRefresh" : false
             }
+          },
+          {
+            "path" : "search/search",
+            "style" : 
+            {
+              "enablePullDownRefresh" : false
+            }
           }
         ]
     }
