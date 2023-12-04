@@ -24,10 +24,10 @@
         // 总数量
         total: 0,
        isLoading:false
-      
       };
     },
     onLoad(options) {
+      console.log(options);
       this.queryObj.query = options.query || ''
       this.queryObj.cid = options.cid || ''
       this.getGoodsList()
@@ -44,7 +44,6 @@
         // 为数据赋值
         this.goodsList = [...this.goodsList,...res.message.goods]
         this.total = res.message.total
-        console.log(this.goodsList);
       },
       gotoDetail(goods){
         uni.navigateTo({
