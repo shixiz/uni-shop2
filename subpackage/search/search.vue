@@ -38,6 +38,7 @@ import { computed } from "vue";
     },
     onload(){
       this.historyList=JSON.parse(uni.getStorageSync("kw")||'[]')
+      console.log(this.historyList);
     },
     methods: {
       gotoDetail(goods_id) {

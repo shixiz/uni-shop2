@@ -22,11 +22,6 @@
         default:18
       }
     },
-    data() {
-      return {
-
-      };
-    },
     methods:{
       searchBoxHandler(){
          console.log("111");
